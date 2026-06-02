@@ -46,7 +46,7 @@ If the text fits within `viewportWidth`, nothing animates — the column behaves
 ## Good to know
 
 This column overrides Filament's text rendering to inject the scrolling wrapper, so the
-visual extras of `TextColumn` (`badge()`, `color()`, `icon()`, `copyable()`, `limit()`, etc.)
+visual extras of `TextColumn` (`badge()`, `color()`, `icon()`, `copyable()`, `url()`, `weight()`, `lineClamp()`)
 do **not** apply. State formatting (`formatStateUsing()`, `searchable()`, `sortable()`) works
 as usual. If you need one of those visual extras, adapt the Blade view in
 `resources/views/hover-scroll-column.blade.php`.
