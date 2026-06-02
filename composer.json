@@ -1,0 +1,43 @@
+{
+    "name": "wagnerbugs/filament-hover-scroll-column",
+    "description": "A Filament table column that smoothly scrolls overflowing text horizontally on hover.",
+    "keywords": [
+        "filament",
+        "laravel",
+        "filamentphp",
+        "table",
+        "column",
+        "marquee"
+    ],
+    "homepage": "https://github.com/wagnerbugs/filament-hover-scroll-column",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wagner Bugs",
+            "email": "wagnerbugs@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "filament/tables": "^4.0|^5.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wagnerbugs\\FilamentHoverScrollColumn\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wagnerbugs\\FilamentHoverScrollColumn\\HoverScrollColumnServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
