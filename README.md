@@ -28,8 +28,8 @@ HoverScrollColumn::make('title')
 It also works with relationship and array state, just like `TextColumn`:
 
 ```php
-HoverScrollColumn::make('description')
-    ->label('Descrição')
+HoverScrollColumn::make('people.name')
+    ->label('Nome')
     ->scrollSpeed(100);
 ```
 
